@@ -91,6 +91,19 @@ header {
     padding-left: 75px;
 }
 
+.carousel-inner {
+    height: 100vh;
+}
+
+.carousel-item img {
+    margin-top: -15rem;
+}
+
+#img3 {
+    margin-top: -3rem;
+}
+
+
 /* main */
 .mainNovedades {
     display: flex;
