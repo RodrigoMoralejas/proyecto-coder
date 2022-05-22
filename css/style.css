@@ -6,7 +6,7 @@
 }
 
 html {
-    font-family: 'Roboto', sans-serif;  
+    font-family: 'Roboto', sans-serif;
 }
 
 body {
@@ -90,10 +90,6 @@ header {
 .containerText {
     grid-area: box1;
     padding-left: 75px;
-}
-
-.carousel-inner {
-    /* height: 100vh; */
 }
 
 #colorContainer {
@@ -266,7 +262,7 @@ header {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content:space-between;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -377,5 +373,12 @@ header {
     /* CONTACT.HTML */
     .mapita {
         width: 90%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    #navbarNav {
+        display: flex;
+        justify-content: flex-end;
     }
 }
