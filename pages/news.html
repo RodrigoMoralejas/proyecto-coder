@@ -11,37 +11,51 @@
     <!-- BOOTSTRAP -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!-- ANIMACION -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <!-- CSS -->
     <link rel="stylesheet" href="../css/style.css">
 </head>
 
 <body>
-    <!-- header -->
-    <header>
-        <a href="../index.html">
-            <h1 class="logo">MoraDrums</h1>
-        </a>
-
-        <nav class="barraNav">
-            <ul class="barraNav__listaDesordenada">
-                <li class="barraNav__elemento"><a href="../index.html">Home</a></li>
-                <li class="barraNav__elemento"><a href="../pages/news.html">News</a></li>
-                <li class="barraNav__elemento"><a href="../pages/products.html">Products</a></li>
-                <li class="barraNav__elemento"><a href="../pages/videos.html">Videos</a></li>
-                <li class="barraNav__elemento"><a href="../pages/contact.html">Contact</a></li>
+    <nav class="navbar navbar-expand-lg bg-dark py-4">
+        <div class="container-fluid">
+          <a class="navbar-brand text-warning" href="../index.html">MoraDrums</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active text-light" aria-current="page" href="../index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="../pages/news.html">News</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="../pages/products.html">Products</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="../pages/videos.html">Video</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="../pages/contact.html">Contact</a>
+              </li>
             </ul>
-        </nav>
+          </div>
+        </div>
+    </nav>
 
-        <button class="botonHeader">Log in</button>
+        <!-- <button class="botonHeader">Log in</button> -->
     </header>
 
     <!-- main -->
     <main class="mainNews">
         <h2 class="tituloNews">News</h2>
 
-        <h3 class="subtitulo">Tama new electronic drums</h3>
+        <h3 class="subtitulo animate__animated animate__fadeIn">Tama new electronic drums</h3>
 
-        <p class="infoNews">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea, necessitatibus illo? Cumque
+        <p class="infoNews animate__animated animate__fadeIn">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea, necessitatibus illo? Cumque
             dolor dicta, aspernatur aliquam similique tempora cupiditate inventore id sint voluptates ab laboriosam
             nobis, incidunt a provident accusantium unde eligendi quis consequuntur porro ad nam. Nesciunt similique
             odio nam assumenda incidunt saepe? Quos atque explicabo tempora blanditiis, doloremque cumque expedita
@@ -101,10 +115,10 @@
     <div class="container" id="colorContainer">
         <footer class="py-3">
             <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-                <li class="nav-item"><a href="../pages/news.html" class="nav-link px-2 text-muted">News</a></li>
-                <li class="nav-item"><a href="../pages/products.html" class="nav-link px-2 text-muted">Products</a></li>
-                <li class="nav-item"><a href="../pages/videos.html" class="nav-link px-2 text-muted">Videos</a></li>
-                <li class="nav-item"><a href="../pages/contact.html" class="nav-link px-2 text-muted">Contact</a></li>
+                <li class="nav-item"><a href="../pages/news.html" class="nav-link px-2 text-light">News</a></li>
+                <li class="nav-item"><a href="../pages/products.html" class="nav-link px-2 text-light">Products</a></li>
+                <li class="nav-item"><a href="../pages/videos.html" class="nav-link px-2 text-light">Videos</a></li>
+                <li class="nav-item"><a href="../pages/contact.html" class="nav-link px-2 text-light">Contact</a></li>
             </ul>
             <p class="text-center text-white">&copy; 2022 Company, Inc</p>
         </footer>
