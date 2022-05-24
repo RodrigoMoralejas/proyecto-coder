@@ -1,0 +1,37 @@
+/* PRODUCTS.HTML */
+.mainProducts {
+    margin: 4rem 0;
+}
+
+.tituloMain {
+    text-align: center;
+    font-size: 2rem;
+    color: #ee9b00;
+    margin-bottom: 2rem;
+}
+
+.gridImagenConteiner {
+    display: grid;
+    grid-template-areas:
+        "imgUno     imgTres"
+        "imgDos     imgDos"
+    ;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+.imgUno {
+    grid-area: imgUno;
+    margin: 0 auto;
+}
+
+.imgDos {
+    grid-area: imgDos;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.imgTres {
+    grid-area: imgTres;
+    margin: 0 auto;
+}

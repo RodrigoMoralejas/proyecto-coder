@@ -1,0 +1,20 @@
+/* CONTACT.HTML */
+.mainContact {
+    margin: 4rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.formContact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+    input {
+        margin-bottom: 1rem;
+        width: 100%;
+    }
+}
