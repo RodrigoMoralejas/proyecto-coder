@@ -72,9 +72,7 @@ header {
   max-width: 100vw !important;
   background-color: #001219; }
 
-/* .nav-item a {
-    color: whitesmoke !important;
-} */
+
 /* main */
 .mainNovedades {
   display: flex;
@@ -180,7 +178,8 @@ header {
 
 .gridImagenConteiner {
   display: grid;
-  grid-template-areas: "imgUno     imgTres" "imgDos     imgDos";
+  grid-template-areas: "imgUno     imgTres"
+ "imgDos     imgDos";
   grid-template-columns: 1fr 1fr;
   align-items: center; }
 
@@ -249,7 +248,9 @@ header {
     flex-direction: column; }
   /* PRODUCTS.HTML */
   .gridImagenConteiner {
-    grid-template-areas: "imgUno" "imgTres" "imgDos";
+    grid-template-areas: "imgUno"
+ "imgTres"
+ "imgDos";
     grid-template-columns: 1fr; }
   .imgDos {
     width: 100%; } }

@@ -5,7 +5,7 @@
 }
 
 .tituloNews {
-    color: #ee9b00;
+    color: $color-secundario;
     text-align: center;
     margin: 1rem;
     font-size: 2rem;
@@ -17,7 +17,7 @@
 
 
 .infoNews {
-    color: #001219;
+    color: $color-principal;
     margin: 2px;
     padding: 5px;
 }
