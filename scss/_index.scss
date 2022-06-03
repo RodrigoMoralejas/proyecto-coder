@@ -6,7 +6,7 @@
 }
 
 html {
-    font-family: $font-family;
+    font-family: map-get($textFont, 'fontStyle');
 }
 
 body {
@@ -20,9 +20,8 @@ a {
 /* header */
 header {
     background-color: $color-principal;
-    display: flex;
+    @include flex;
     justify-content: space-between;
-    align-items: center;
     padding: 1.1rem 1rem;
 }
 
@@ -31,10 +30,8 @@ header {
 }
 
 .barraNav__listaDesordenada {
-    display: flex;
+    @include flex;
     justify-content: space-between;
-    align-items: center;
-
 }
 
 .barraNav__elemento {
@@ -42,7 +39,7 @@ header {
     margin: 20px;
 
     a {
-        text-decoration: none;
+        @extend a;
         color: whitesmoke;
 
         &:hover {
@@ -50,8 +47,6 @@ header {
         }
     }
 }
-
-
 
 .botonHeader {
     background-color: $color-secundario;
@@ -66,7 +61,6 @@ header {
         background-color: #ee4b00;
     }
 }
-
 
 /* image section */
 .gridContainer {
@@ -89,7 +83,6 @@ header {
     }
 }
 
-
 .containerText {
     grid-area: box1;
     padding-left: 75px;
@@ -109,23 +102,21 @@ header {
 }
 
 .tituloNovedades {
-    font-family: $font-family;
+    font-family: map-get($textFont, 'fontStyle');
     color: #001219;
     text-align: center;
     font-size: 3rem;
 }
 
 .containerImg {
-    display: flex;
+    @include flex;
     justify-content: center;
-    align-items: center;
     margin: 3rem;
 }
 
 .containerTarjetas {
-    display: flex;
+    @include flex;
     flex-direction: column;
-    align-items: center;
     justify-content: space-between;
     width: 20%;
 
@@ -137,16 +128,14 @@ header {
     a {
         background-color: $color-principal;
         color: whitesmoke;
-        text-decoration: none;
+        @extend a;
         padding: 1.3rem 1rem;
         width: 10rem;
         text-align: center;
         border-radius: 4px;
         margin: 2rem 0;
-
     }
 }
-
 
 .mainNovedades button {
     margin: 0 auto;
@@ -161,8 +150,7 @@ header {
 /* footer */
 .footer {
     background-color: $color-principal;
-    display: flex;
-    align-items: center;
+    @include flex;
     justify-content: space-evenly;
     flex-direction: column;
     height: 35vh;
@@ -173,9 +161,8 @@ header {
 }
 
 .barraNavFoot__ul {
-    display: flex;
+    @include flex;
     justify-content: center;
-    align-items: center;
 }
 
 .barraNavFoot__li {
@@ -183,11 +170,10 @@ header {
     margin: 20px;
 
     a {
-        text-decoration: none;
+        @extend a;
         color: whitesmoke;
     }
 }
-
 
 .copyRight {
     color: whitesmoke;

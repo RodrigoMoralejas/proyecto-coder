@@ -1,0 +1,2 @@
+Agregue keywords y description al meta
+hice parcial para mixin, maps y aplique extend a los anchor de index
