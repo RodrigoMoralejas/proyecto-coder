@@ -151,15 +151,20 @@ header {
   color: #ee9b00;
   text-align: center;
   margin: 1rem;
-  font-size: 2rem; }
+  font-size: 4rem; }
 
 .subtitulo {
   margin: 5px; }
 
+h3 {
+  font-size: 3rem;
+  text-align: center; }
+
 .infoNews {
+  text-align: center;
   color: #001219;
   margin: 2px;
-  padding: 5px; }
+  font-size: 2rem; }
 
 /* PRODUCTS.HTML */
 .mainProducts {
@@ -167,7 +172,7 @@ header {
 
 .tituloMain {
   text-align: center;
-  font-size: 2rem;
+  font-size: 4rem;
   color: #ee9b00;
   margin-bottom: 2rem; }
 

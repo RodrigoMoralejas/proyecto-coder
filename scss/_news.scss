@@ -8,16 +8,21 @@
     color: $color-secundario;
     text-align: center;
     margin: 1rem;
-    font-size: 2rem;
+    font-size: 4rem;
 }
 
 .subtitulo {
     margin: 5px;
 }
 
+h3 {
+    font-size: 3rem;
+    text-align: center;
+}
 
 .infoNews {
+    text-align: center;
     color: $color-principal;
     margin: 2px;
-    padding: 5px;
+    font-size: 2rem;
 }
